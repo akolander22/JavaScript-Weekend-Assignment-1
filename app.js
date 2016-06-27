@@ -62,6 +62,7 @@ function amount(claimer){
   totalPayedOut += coveredAmount;
 
   $("body").append('Paid out $' + coveredAmount + ' for ' + claimer.patientName + '<br>');
+	$("body").css({"color": "#000099", "font-family": "Georgia"});//now with css stylings!
 
 
 }// this should put the string of paid out for each client and do the math to get that amount
